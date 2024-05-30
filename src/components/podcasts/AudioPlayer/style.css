@@ -1,0 +1,52 @@
+.custom-audio-player {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 129, 191, 0.3) 1.63%,
+    rgba(65, 48, 90, 0.009) 108.18%
+  );
+}
+
+.player-image {
+  width: 50px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.duration-range {
+  filter: hue-rotate(25deg);
+  width: 100%;
+}
+
+.volume-range {
+  filter: hue-rotate(25deg);
+  width: 30%;
+}
+
+.duration-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+}
+
+.audio-btn {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.audio-btn:hover {
+  background-color: aliceblue;
+  color: var(--theme);
+  transition: all 0.3s;
+}
